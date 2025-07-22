@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Bienvenida</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bienvenida.css">
+</head>
+<body>
+  <h1>¡Bienvenido/a!</h1>
+  <p id="nombre"></p>
+  <p id="email"></p>
+  <img id="foto" alt="Foto de perfil" />
+
+  <div class="btn-container">
+    <button onclick="consultaexamen2()">JSON</button>
+    <button onclick="consultaDni()">Consulta DNI</button>
+    <button onclick="consultaRuc()">Consulta RUC</button>
+    <button onclick="consultaexamen1()">XML</button>
+    <button class="btn-salir" onclick="cerrarSesion()">Salir</button>
+  </div>
+
+  <script>
+    // Recuperar datos
+    const nombre = localStorage.getItem("nombre");
+    const email = localStorage.getItem("email");
+    const foto = localStorage.getItem("foto");
+
+    document.getElementById("nombre").innerText = "Nombre: " + (nombre || "No disponible");
+    document.getElementById("email").innerText = "Correo: " + (email || "No disponible");
+    document.getElementById("foto").src = foto || "https://via.placeholder.com/140";
+
+    // Funciones de navegación
+    function consultaexamen2() {
+      window.location.href = "json.html";
+    }
+
+    function consultaDni() {
+      window.location.href = "dni.html";
+    }
+
+    function consultaRuc() {
+      window.location.href = "ruc.html";
+    }
+
+    function consultaexamen1() {
+      window.location.href = "xml.html";
+    }
+
+    // Botón Salir
+    function cerrarSesion() {
+      localStorage.clear();
+      alert("Sesión cerrada.");
+      window.location.href = "index.html"; // cambia "index.html" si tu login está en otra ruta
+    }
+  </script>
+</body>
+</html>

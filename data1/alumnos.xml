@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<alumnos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<alumno>
+		<dni></dni>
+		<nombre></nombre>
+		<apellido></apellido>
+		<edad></edad>
+	</alumno>
+	<alumno>
+		<dni></dni>
+		<nombre></nombre>
+		<apellido></apellido>
+		<edad></edad>
+	</alumno>
+	<alumno>
+		<dni></dni>
+		<nombre></nombre>
+		<apellido></apellido>
+		<edad></edad>
+	</alumno>
+	<alumno>
+		<dni></dni>
+		<nombre></nombre>
+		<apellido></apellido>
+		<edad></edad>
+	</alumno>
+</alumnos>

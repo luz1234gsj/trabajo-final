@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/xml.css">
+    <title>Docentes</title>
+</head>
+<body>
+
+    <div class="cuadro-encabezado">IESTP ESPINAR - ARQUITECTURA DE PLATAFORMAS</div>
+
+    <h3>ALUMNOS</h3>
+    <table id="alumnos">
+        <thead>
+            <tr>
+                <th>DNI</th>
+                <th>NOMBRE</th>
+                <th>CURSO</th>
+                <th>EDAD</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Aquí se llenan los alumnos desde JS -->
+        </tbody>
+    </table>
+
+    <h3>CURSOS</h3>
+    <table id="cursos">
+        <thead>
+            <tr>
+                <th>ID_CURSO</th>
+                <th>NOMBRE_CURSO</th> <!-- corregido el error tipográfico -->
+                <th>N_HORAS</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Aquí se llenan los cursos desde JS -->
+        </tbody>
+    </table>
+
+    <h3>DOCENTES</h3>
+    <table id="docentes">
+        <thead>
+            <tr>
+                <th>DNI</th>
+                <th>NOMBRE</th>
+                <th>APELLIDO</th>
+                <th>CURSO</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Aquí se llenan los docentes desde JS -->
+        </tbody>
+    </table>
+
+    <!-- Scripts -->
+    <script src="js/jquery.js"></script>
+    <script src="js/cursos.js"></script>
+    <script src="js/alumnos.js"></script>
+    <script src="js/docentes.js"></script>
+    <!-- Botón para volver a la página principal -->
+<div>
+    <button onclick="location.href='bienvenida.html'">Volver a la página principal</button>
+</div>
+
+</body>
+</html>

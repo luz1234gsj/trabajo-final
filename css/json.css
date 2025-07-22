@@ -1,0 +1,72 @@
+/* Estilos generales del body */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Información general */
+.info-general {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.info-general h2,
+.info-general h3 {
+  margin: 5px 0;
+  color: #333;
+}
+
+/* Títulos de listas */
+h4 {
+  margin-top: 30px;
+  color: #0056b3;
+  font-size: 20px;
+}
+
+/* Estilos generales para las tablas */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 30px;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+th, td {
+  padding: 12px;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+
+th {
+  background-color: #007bff;
+  color: white;
+}
+
+td {
+  color: #333;
+}
+
+/* Botón de volver */
+div button {
+  background-color: #28a745;
+  color: white;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto 40px;
+  transition: background-color 0.3s;
+}
+
+div button:hover {
+  background-color: #218838;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Consulta de RUC</title>
+  <link rel="stylesheet" href="css/ruc.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Consulta de RUC</h1>
+
+    <div class="form-container">
+
+      <!-- RUC -->
+      <div class="card">
+        <h2>Consultar RUC</h2>
+        <input type="text" id="ruc" placeholder="Ingrese RUC">
+        <button onclick="consultarRUC()">Consultar</button>
+        <div id="resultado-ruc" class="resultado"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+
+    <!-- Botón para volver a la página principal -->
+<div>
+    <button onclick="location.href='bienvenida.html'">Volver al menu</button>
+</div>
+</body>
+</html>

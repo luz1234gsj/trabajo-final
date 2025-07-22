@@ -1,0 +1,29 @@
+{
+    
+    "alumno": [
+        {
+            "dni": "25417812",
+            "nombre": "wilver",
+            "apellido": "quispe",
+            "edad":"20"
+        },
+        {
+            "dni": "25417812",
+            "nombre": "fredi",
+            "apellido": "onofre",
+            "edad":"23"
+        },
+        {
+            "dni": "25417812",
+            "nombre": "roberto",
+            "apellido": "carlos",
+            "edad":"19" 
+        },
+        {
+            "dni": "25417812",
+            "nombre": "luiz",
+            "apellido": "perez",
+            "edad":"20" 
+        }
+    ]
+}

@@ -1,0 +1,101 @@
+/* Estilos generales */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+
+/* Contenedor principal */
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 25px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Título principal */
+h1 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+/* Contenedor del formulario */
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Tarjeta de consulta */
+.card {
+  width: 100%;
+  background-color: #fdfdfd;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+/* Título de cada tarjeta */
+.card h2 {
+  color: #555;
+  margin-bottom: 15px;
+}
+
+/* Campos de entrada */
+input[type="text"] {
+  width: 80%;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+input[type="text"]:focus {
+  border-color: #007bff;
+}
+
+/* Botón de consultar */
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  font-size: 16px;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Resultado */
+.resultado {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #222;
+}
+
+/* Botón de volver */
+body > div:last-of-type {
+  text-align: center;
+  margin-top: 20px;
+}
+
+body > div:last-of-type button {
+  background-color: #28a745;
+}
+
+body > div:last-of-type button:hover {
+  background-color: #218838;
+}
